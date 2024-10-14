@@ -235,22 +235,29 @@ header {
 @media (max-width: 768px) {
     /* Header adjustments for mobile */
     header {
-        height: 9vh;
+        height: auto; /* Allow header to adjust its height */
+        display: flex; /* Use flexbox for layout */
+        flex-direction: column-reverse; /* Stack the title and buttons vertically */
+        align-items: center; /* Center content horizontally */
+        padding: 2vh 0;
     }
 
     #title {
         font-size: 4vh;
-        margin-left: 2vw;
+        margin-left: 0; /* Remove margin left to center it */
+        text-align: center; /* Center the title */
+        top: 0;
+        margin-top: 1vh;
+        position: absolute;
+
     }
 
     .butns {
-        margin-right: 2vw;
-        gap: 1.2vw;
-        margin-top: 4vh;
-    }
-
-    .butns a {
-        font-size: 2vh;
+        margin-right: 0; /* Reset right margin to center the buttons */
+        gap: 2vw; /* Increase gap between buttons */
+        margin-top: 4vh; /* Adjust margin top for spacing */
+        justify-content: center; /* Center buttons */
+        width: 100%; /* Make the button container full width */
     }
 
     /* Stack elements vertically and adjust for mobile */
@@ -264,6 +271,18 @@ header {
         margin-top: 2vh;
     }
 
+    #mf{
+        margin-top: 4vh;
+        width: 60vw;
+        padding: 0;
+        margin-left: 5vw;
+    }
+
+    #tf{
+        margin-top: 23vh;
+        width: 60vw;
+    }
+
     #sum1,
     #sum2,
     #sum3 {
@@ -271,6 +290,14 @@ header {
         margin-left: 5vw;
         margin-right: 5vw;
         margin-top: 10vh;
+    }
+
+    #sum1{
+margin-top: 12vh;
+    }
+
+    #sum3{
+        margin-top: 12vh;
     }
 
     #txt1,
@@ -294,6 +321,16 @@ header {
         height: auto; /* Use auto for all sections */
         padding-bottom: 5vh;
     }
+
+    .lander{
+        height: 92vh;
+        padding-bottom: 0;
+    }
+    
+    .hed1{
+        height: 130vh;
+    }
+
 
     /* Make sure hed2 has enough height */
     .hed2 {

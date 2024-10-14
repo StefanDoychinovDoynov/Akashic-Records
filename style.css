@@ -272,15 +272,15 @@ header {
     }
 
     #mf{
-        margin-top: 4vh;
+        margin-top: 15vh;
         width: 60vw;
         padding: 0;
-        margin-left: 5vw;
+        margin-left: 0vw;
     }
 
     #tf{
-        margin-top: 23vh;
-        width: 60vw;
+        margin-top: 29vh;
+        width: 80vw;
     }
 
     #sum1,

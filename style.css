@@ -348,3 +348,9 @@ margin-top: 12vh;
         padding-bottom: 20vh; /* Additional space to push content down */
     }
 }
+
+
+
+.butns a::after {
+    transition: width 0.5s ease;
+}

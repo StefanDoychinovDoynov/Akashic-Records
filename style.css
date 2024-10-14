@@ -296,6 +296,10 @@ header {
 margin-top: 12vh;
     }
 
+    #sum2{
+        margin-top: 4vh;
+    }
+
     #sum3{
         margin-top: 12vh;
     }
@@ -331,6 +335,12 @@ margin-top: 12vh;
         height: 130vh;
     }
 
+    #prednaznachenie{
+        padding: 0;
+      
+    }
+
+  
 
     /* Make sure hed2 has enough height */
     .hed2 {

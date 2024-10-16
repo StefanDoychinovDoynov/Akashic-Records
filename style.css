@@ -18,20 +18,20 @@ body {
 
 .hed1 {
     background-color: #e9e9e2;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
 .hed2 {
     background-color: #80abc5;
-    width: 100vw;
+    width: 100%;
     height: auto; /* Use auto to allow it to grow with content */
     min-height: 100vh; /* Set minimum height to ensure it's tall enough */
 }
 
 .hed3 {
     background-color: #e9e9e2;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -50,7 +50,7 @@ body {
 header {
     position: fixed;
     top: 0;
-    width: 100vw;
+    width: 100%;
     height: 11vh;
     background: transparent;
     backdrop-filter: blur(10px);
